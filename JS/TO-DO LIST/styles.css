@@ -1,0 +1,28 @@
+.container{
+    background-color: #eee;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    overflow: auto;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+ul{
+    margin: 10px;
+    background-color: palegreen;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    padding-left: 0px;
+}
+ul li {
+    list-style-type: none;
+    
+}
