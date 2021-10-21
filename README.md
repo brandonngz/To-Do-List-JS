@@ -2,4 +2,4 @@
 
 First Update
 
-![imagen](https://user-images.githubusercontent.com/49128144/138314495-4f5f9f22-3f5b-4ab0-be95-67972b85f23c.png
+![imagen](https://user-images.githubusercontent.com/49128144/138314567-5ad18ec8-98c6-4396-a606-7c9c5dece018.png)
