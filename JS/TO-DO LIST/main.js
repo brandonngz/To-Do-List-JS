@@ -3,7 +3,7 @@ const todos = JSON.parse(localStorage.getItem('todos'))  || [];
 
 const render = () => {
     const listaTodo = document.getElementById('todo-list');
-    const todosTemplate = todos.map( t => '<li>'  + t + '</li>');//Agrega datos al array todos como <li> </li> entre medio esta nuestro dato del array
+    const todosTemplate = todos.map( (current, index) => '<li>' +'Task# '+index + ' ' +current + '</li>');//Agrega datos al array todos como <li> </li> entre medio esta nuestro dato del array
     listaTodo.innerHTML = todosTemplate.join('');
     const elementos = document.querySelectorAll('#todo-list li');//buscar mediante un id todos los elementos que se encuentren dentro de #todo-list
     elementos.forEach((elemento, i) => {//iterar elementos
